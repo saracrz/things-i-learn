@@ -63,6 +63,17 @@ const paragraphs = header.querySelector('p')
 //selects every <p> tag the inside item class.
 ```
 **Elements**:
-
+Is a tag on the page.
 When we select an element with query selector it returns an object with a lot of props that we can use as *getters* or *setters*.
 
+- getters: pulls tha data out of that object.
+- setters: update the content in an element.
+
+```javascript
+const items = document.querySelectorAll('.item')
+const paragraphs = header.querySelector('p')
+
+paragraph.textContent = "I'm a paragraph tag element";
+
+//selects the <p> tag and overwrite the content.
+```
