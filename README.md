@@ -39,6 +39,8 @@ function sayHI() {
 }
 ```
 
+## **The DOM** *(Module 4)*
+
 The DOM (Document Object Model) is the start base for every framework.
 
 - window: is a global scope in the browser. Where all our global variables are stored and everything about the current open browser.
@@ -60,4 +62,7 @@ const paragraphs = header.querySelector('p')
 
 //selects every <p> tag the inside item class.
 ```
-**Getters**:
+**Elements**:
+
+When we select an element with query selector it returns an object with a lot of props that we can use as *getters* or *setters*.
+
