@@ -38,3 +38,26 @@ function sayHI() {
    console.log('hello')
 }
 ```
+
+The DOM (Document Object Model) is the start base for every framework.
+
+- window: is a global scope in the browser. Where all our global variables are stored and everything about the current open browser.
+
+
+**Element Selectors**:
+- querySelector().
+- querySelectorAll().
+
+```javascript
+const header = document.querySelectorAll('h2')
+
+// document selects all the h2 tag elements in out html file
+```
+
+```javascript
+const items = document.querySelectorAll('.item')
+const paragraphs = header.querySelector('p')
+
+//selects every <p> tag the inside item class.
+```
+**Getters**:
