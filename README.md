@@ -9,14 +9,18 @@ Highlights from Wes Bos course - Beginner Javascript
 
 ```javascript
 function sayHi(greeting = ''){
+  const gretting = 'Hi'
   return function sayName(name){
     return `${greeting} ${name}!`
   }
 }
-```
 
 const myGreeting = sayHi('Hey');
-console.log(myGreeting('Jerome'))
+console.log(myGreeting('folks!')) // This logs *Hey folks!*
+
+```
+
+
 
 
 2.  Hoisting: Two things are hoisted in JS, which means are accesible even before you have declare them:
