@@ -2,8 +2,8 @@
 Highlights from Wes Bos course - Beginner Javascript
 
 
-
-## **The Tricky Bits** Module 3
+*(Module 3)*
+## **The Tricky Bits** 
 
 **Closures**: is the ability to access to a parent level scope from a child scope, even after the parent function has been closure.
 function sayHi(greeting = ''){
