@@ -53,7 +53,7 @@ The DOM (Document Object Model) is the start base for every framework.
 ```javascript
 const header = document.querySelectorAll('h2')
 
-// document selects all the h2 tag elements in out html file
+// document selects all the h2 tag elements in our html file
 ```
 
 ```javascript
