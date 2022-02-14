@@ -10,25 +10,31 @@ Highlights from Wes Bos course - Beginner Javascript
 ```javascript
 function sayHi(greeting = ''){
   const gretting = 'Hi'
+  
   return function sayName(name){
     return `${greeting} ${name}!`
   }
 }
 
 const myGreeting = sayHi('Hey');
-console.log(myGreeting('folks!')) // This logs *Hey folks!*
+console.log(myGreeting('folks!')) // This logs Hey folks!
 
 ```
 
 
 
 
-2.  Hoisting: Two things are hoisted in JS, which means are accesible even before you have declare them:
-var variables.
-regular functions (not anonymous function, like arrow functions)
+**Hoisting**: Two things are hoisted in JS, which means that are accesible even before where they are declare:
+- var variables.
+- regular functions (not anonymous function, as arrow functions)
+
 Example:
-sayHi(); // it logs 'hello'
+
+
+```javascript
+sayHi(); // it logs hello
 
 function sayHI() {
    console.log('hello')
 }
+```
