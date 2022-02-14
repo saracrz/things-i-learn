@@ -3,7 +3,9 @@ Highlights from Wes Bos course - Beginner Javascript
 
 
 
-Closures: is the ability to access to a parent level scope from a child scope, even after the parent function has been closure.
+## **The Tricky Bits** Module 3
+
+**Closures**: is the ability to access to a parent level scope from a child scope, even after the parent function has been closure.
 function sayHi(greeting = ''){
   return function sayName(name){
     return `${greeting} ${name}!`
