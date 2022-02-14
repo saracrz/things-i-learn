@@ -73,7 +73,7 @@ When we select an element with query selector it returns an object with a lot of
 const items = document.querySelectorAll('.item')
 const paragraphs = header.querySelector('p')
 
-paragraph.textContent = "I'm a paragraph tag element";
+paragraph.textContent = "I'm a paragraph tag element"; -> textContent is an example of a setter, there are many more.
 
 //selects the <p> tag and overwrite the content.
 ```
