@@ -93,3 +93,13 @@ They act most of them as getters and setters:
 - .setAttribute('alt', 'cute pup') it's the same as pic.alt = 'cute pup'
 - .getAttribute('alt')
 
+**Create Elements/HTML**
+- document.createElement() // This cretes an element in memory
+
+```javascript
+
+const paragraph = document.createElement('p');
+paragraph.textContent = 'I'm a paragraph';
+paragraph.CllassList.add('special');
+
+```
