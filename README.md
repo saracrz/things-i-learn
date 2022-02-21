@@ -152,3 +152,19 @@ Elements on the page emits events, when they are clicked, hovered, dragged for e
 
 1. addEventListener(*event, callBack function*) // callBack function is a reference to a function, we are not triggered that function, the browser for example could do it, when there is a click event. You can pass anonymus functions too as a second parameter.
 
+```javascript
+function handleClick() {
+  console.log('It's clicked!')
+}
+
+const item = document.querySelector('.item')
+item.addEventListener('click', handleClick) // callBack function, one of the benefits is you can reuse the handleClick function in other .addEventListener() you declare and don't repeat code.
+
+```
+
+2. removeEventListener(*event, callBack function*). Same addEventListener but to stop the event.
+
+```javascript
+
+item.removeEventListener('click', handleClick) 
+```
