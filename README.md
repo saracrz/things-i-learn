@@ -166,5 +166,5 @@ item.addEventListener('click', handleClick) // callBack function, one of the ben
 
 ```javascript
 
-item.removeEventListener('click', handleClick) 
+item.removeEventListener('click', handleClick) // habndleClick is a reference to the original function.
 ```
