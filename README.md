@@ -167,6 +167,11 @@ item.addEventListener('click', handleClick) // callBack function, one of the ben
 ```javascript
 const manyButtons = document.querySelectorAll('button.save')
 
+manyButtons.forEach((button) => {
+  button.addEventListener('click', handleClick)
+});
+
+//This allows us to every single element has been bind individually.
 ```
 
 2. removeEventListener(*event, callBack function*). Same addEventListener but to stop the event.
