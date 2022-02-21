@@ -142,3 +142,11 @@ const name = 'Peter'
 
 item.innerHTML = `<h1>Hey ${name}! I'm a title</h1>`
 ```
+
+
+## **Events** *(Module 5)*
+
+**Event Listeners**
+
+Elements on the page emits events, when they are clicked, hovered, dragged for example. When you interact with them.
+
