@@ -167,9 +167,9 @@ item.addEventListener('click', handleClick) // callBack function, one of the ben
 ```javascript
 const manyButtons = document.querySelectorAll('button.save')
 
-manyButtons.forEach((button) => {
+manyButtons.forEach(button => {
   button.addEventListener('click', handleClick)
-});
+}); // When we use an arrow function inside the event listener then we can not unbinding it.
 
 //This allows us to every single element has been bind individually.
 ```
