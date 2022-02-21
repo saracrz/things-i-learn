@@ -95,7 +95,7 @@ They act most of them as getters and setters:
 
 **Create Elements/HTML**
 
-1. createElement:
+1. createElement():
 - document.createElement() // This cretes an element in memory
 
 ```javascript
@@ -121,3 +121,5 @@ myDiv.appendChild(paragraph) // inserts the paragraph into the div element.
 document.body.appendChild(myDiv); // The one with document.body.appendChild() should be at the end of the appends to not cause a lot of renders.
 
 ```
+
+2. insertAdjacementElement(*position, element*):
