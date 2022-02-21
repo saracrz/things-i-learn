@@ -169,7 +169,7 @@ const manyButtons = document.querySelectorAll('button.save')
 
 manyButtons.forEach(button => {
   button.addEventListener('click', handleClick)
-}); // When we use an arrow function inside the event listener then we can not unbinding it.
+}); // When we use an arrow function inside the event listener then we can not unbinding it cause it's an anonymous function..
 
 //This allows us to every single element has been bind individually.
 ```
