@@ -84,5 +84,11 @@ paragraph.textContent = "I'm a paragraph tag element"; -> // textContent is an e
 - .add // .add('nice') Adds a new class.
 - .remove //
 - .toggle // .toggle('round') add the round class when it's false and remove whhen it's true
-- .addEventListener('click', toggleRound)
+- .addEventListener('click', toggleRound) or .addEventListener('load', fucntion() {console.log()pic.naturalWidth} -> This event WILL WAIT UNTILL THE PIC IS LOADED.)
+- .contains('yourClassName')
+
+**Attributes**:
+Anything provided to an element as additional info, ex: class='your-class' or src='your-path.html'.
+They act most of them as getters and setters.
+
 
