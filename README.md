@@ -162,9 +162,16 @@ item.addEventListener('click', handleClick) // callBack function, one of the ben
 
 ```
 
+1.1 Select many elements.
+
+```javascript
+const manyButtons = document.querySelectorAll('button.save')
+
+```
+
 2. removeEventListener(*event, callBack function*). Same addEventListener but to stop the event.
 
 ```javascript
-
 item.removeEventListener('click', handleClick) // habndleClick is a reference to the original function.
 ```
+
