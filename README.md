@@ -137,5 +137,7 @@ myDiv.insertAdjacementElement('beforebegin', heading) // inserts the paragraph i
 3. innerHTML. Adds HTML elements using backticks string.
 
 ```javascript
-const heading =  `<h1>Hey! I'm a title</h1>`
+const item = document.querySelector('.item')
+
+item.innerHTML = `<h1>Hey! I'm a title</h1>`
 ```
