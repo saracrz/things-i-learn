@@ -133,3 +133,9 @@ heading.textContent = 'I'm a heading';
 myDiv.insertAdjacementElement('beforebegin', heading) // inserts the paragraph into before the div element.
 
 ```
+
+3. innerHTML. Adds HTML elements using backticks string.
+
+```javascript
+const heading =  `<h1>Hey! I'm a title</h1>`
+```
