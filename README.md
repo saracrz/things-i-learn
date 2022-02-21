@@ -94,6 +94,8 @@ They act most of them as getters and setters:
 - .getAttribute('alt')
 
 **Create Elements/HTML**
+
+1. createElement:
 - document.createElement() // This cretes an element in memory
 
 ```javascript
@@ -101,5 +103,21 @@ They act most of them as getters and setters:
 const paragraph = document.createElement('p');
 paragraph.textContent = 'I'm a paragraph';
 paragraph.CllassList.add('special');
+
+```
+
+- .appendChild(); // Needed to insert the nodes (elements or piece of text) in our html file.
+
+
+```javascript
+
+const myDiv = document.createElement('div');
+
+
+const paragraph = document.createElement('p');
+paragraph.textContent = 'I'm a paragraph';
+myDiv.appendChild(paragraph) // inserts the paragraph into the div element.
+
+document.body.appendChild(myDiv); // The one with document.body.appendChild() should be at the end of the appends to not cause a lot of renders.
 
 ```
