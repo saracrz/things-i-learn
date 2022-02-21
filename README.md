@@ -162,7 +162,7 @@ item.addEventListener('click', handleClick) // callBack function, one of the ben
 
 ```
 
-1.1 Select many elements.
+1.1. Select many elements.
 
 ```javascript
 const manyButtons = document.querySelectorAll('button.save')
