@@ -123,3 +123,13 @@ document.body.appendChild(myDiv); // The one with document.body.appendChild() sh
 ```
 
 2. insertAdjacementElement(*position, element*):
+
+```javascript
+
+
+const heading = document.createElement('h2');
+heading.textContent = 'I'm a heading';
+
+myDiv.insertAdjacementElement('beforebegin', heading) // inserts the paragraph into before the div element.
+
+```
