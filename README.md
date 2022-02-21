@@ -150,3 +150,5 @@ item.innerHTML = `<h1>Hey ${name}! I'm a title</h1>`
 
 Elements on the page emits events, when they are clicked, hovered, dragged for example. When you interact with them.
 
+1. addEventListener(*event, callBack function*) // callBack function is a reference to a function, we are not triggered that function, the browser for example could do it, when there is a click event. You can pass anonymus functions too as a second parameter.
+
