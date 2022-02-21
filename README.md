@@ -77,3 +77,12 @@ paragraph.textContent = "I'm a paragraph tag element"; -> // textContent is an e
 
 //selects the <p> tag and overwrite the content.
 ```
+
+**Classes**:
+
+.classList // selects all the classes in your html document.
+.add // .add('nice') Adds a new class.
+.remove //
+.toggle // .toggle('round') add the round class when it's false and remove whhen it's true
+.addEventListener('click', toggleRound)
+
