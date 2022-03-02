@@ -229,3 +229,13 @@ The event.stopPropagation works also for capture down.
   - third: a new object filled with options.
 
 In that last parameter, the options object we can pass the prop capture set to true and the event is fired from outside to inside, capture down which means in the opposite way. Bubbling up and capture down.
+
+
+```javascript
+const button = document.querySelector('.item')
+
+button.addEventListener('click', function(event) {
+  console.log(event.target) 
+}, {capture: true}) // Indicates to start propagation from outside to inside, which means from the browser to the window, to the button element, to the icon.
+
+```
