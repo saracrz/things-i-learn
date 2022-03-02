@@ -220,8 +220,8 @@ event.stopPropagation()
 
 
 - The .addEventListener() accepts three arguments:
- - first: the type of the event, 
- - second: the function or callback,
- - third: a new object filled with options.
+  - first: the type of the event, 
+  - second: the function or callback,
+  - third: a new object filled with options.
 
 In that last object we can pass the prop capture set to true and the event is fired from outside to inside, capture down which means in the opposite way. Bubbling up and capture down. https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/events.html#Events-phases
