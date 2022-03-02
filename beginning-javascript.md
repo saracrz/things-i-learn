@@ -197,18 +197,31 @@ item.addEventListener('click', function(event) {
 
 ```
 
-Specifically the prop .target, if we console.log(event.target) it will print the button that was clicked.
+In the event we have access to the *target* prop:
 
-Difference between .target and .currentTarget: currentTarget refers to the specific element where the user has clicked, is the one that fired the event. example: an icon inside the button, or the text.
+```javascript
+const button = document.querySelector('.item')
 
-But at the same time, you are clicking also in the button and at the same time you are clicking on the window, and in the browser, etc, etc -> this is wrapping two concepts which are propagation and bubbling.
+button.addEventListener('click', function(event) {
+  console.log(event.target) // Logs the button that was clicked.
+})
+
+```
+
+The difference between *.target* and *.currentTarget* is that .currentTarget refers to the specific element where the user has clicked, is the one that fired the event. Example: an icon inside the button, or the text.
+
+But at the same time, you are clicking also in the button and at the same time you are clicking on the window, and in the browser, etc, etc -> this is wrapping two concepts which are **propagation and bubbling**
 
 If we want to stop the event from bubbling up we have a method:
 
-Event.stopPropagation()
+```javascript
+event.stopPropagation() 
+```
 
 
-
-The .addEventListener() accepts three argument, on the type of the event, second the function or callback and third a new object filled with options.
+- The .addEventListener() accepts three arguments:
+ - first: the type of the event, 
+ - second: the function or callback,
+ - third: a new object filled with options.
 
 In that last object we can pass the prop capture set to true and the event is fired from outside to inside, capture down which means in the opposite way. Bubbling up and capture down. https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/events.html#Events-phases
