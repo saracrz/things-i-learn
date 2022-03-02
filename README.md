@@ -1,6 +1,9 @@
 # things-i-learned
 This repo is about documenting all thing I'm learning through the time.
 
-Contents:
+## Contents:
+
+1. [Beginning JS](https://github.com/saracrz/things-i-learned/blob/main/beginning-javascript.md)
+2. [Clean Code](https://github.com/saracrz/things-i-learned/blob/main/clean-code)
 
 
