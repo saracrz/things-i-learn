@@ -1,5 +1,5 @@
 # things-i-learned
-This repo is about documenting all things I'm learning through the time.
+A way to document all things I'm learning through the time.
 
 ## Contents:
 
