@@ -1,9 +1,13 @@
 # begining-javascript
 Highlights from Wes Bos course - Beginner Javascript
 
+## Content: 
 
+1. [The Tricky Bits](#the-tricky-bits-module-3)
+2. [The DOM](#the-dom-module-4)
+3. [Events](#events-module-5)
 
-## **The Tricky Bits** *(Module 3)*
+## The Tricky Bits *(Module 3)*
 
 **Closures**: is the ability to access to a parent level scope from a child scope, even after the parent function has been closure.
 
@@ -39,7 +43,7 @@ function sayHI() {
 }
 ```
 
-## **The DOM** *(Module 4)*
+## The DOM *(Module 4)*
 
 The DOM (Document Object Model) is the start base for every framework.
 
@@ -144,7 +148,7 @@ item.innerHTML = `<h1>Hey ${name}! I'm a title</h1>`
 ```
 
 
-## **Events** *(Module 5)*
+## Events *(Module 5)*
 
 **Event Listeners**
 
