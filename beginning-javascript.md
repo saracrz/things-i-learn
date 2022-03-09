@@ -243,4 +243,13 @@ button.addEventListener('click', function(event) {
 }, {capture: true}) // Indicates to start propagation from outside to inside, which means from the browser to the window, to the button element, to the icon.
 
 ```
-- Prevent default: the method ```.preventDefault()``` is used when you want to prevent the element behaviour.
+
+**Some extra events tips:**
+
+- Prevent default: the method ```.preventDefault()``` is used when you want to prevent the default thing to happen.
+- The best way to grab element from a form is given to the input the property name, example:
+
+```javascript
+- event.currentTarget.name.value;
+- event.currentTarget.email.value;
+```
