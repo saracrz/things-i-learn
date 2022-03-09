@@ -256,3 +256,7 @@ button.addEventListener('click', function(event) {
 const name = event.currentTarget.name.value;
 const email = event.currentTarget.email.value;
 ```
+
+- Diference between button and link:
+   - Links are used to change the page.
+   - Buttons are used for actions that happen inside the application.
