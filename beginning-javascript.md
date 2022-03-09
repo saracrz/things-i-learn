@@ -260,4 +260,5 @@ const email = event.currentTarget.email.value;
 - Diference between button and link:
    - Links are used to change the page.
    - Buttons are used for actions that happen inside the application.
+   
    Example: using an ```<a href='#'>Save</>``` to save something is not a good practice.
