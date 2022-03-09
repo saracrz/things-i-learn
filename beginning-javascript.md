@@ -253,6 +253,6 @@ button.addEventListener('click', function(event) {
 <input type='text' name='name'>
 <input type='email' name='email'>
 
-- const name = event.currentTarget.name.value;
-- const email = event.currentTarget.email.value;
+const name = event.currentTarget.name.value;
+const email = event.currentTarget.email.value;
 ```
