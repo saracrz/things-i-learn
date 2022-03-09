@@ -250,6 +250,9 @@ button.addEventListener('click', function(event) {
 - The best way to grab element from a form is given to the input the property name, example:
 
 ```javascript
+<input type='text' name='name'>
+<input type='email' name='email'>
+
 - event.currentTarget.name.value;
 - event.currentTarget.email.value;
 ```
