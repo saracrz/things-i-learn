@@ -258,7 +258,9 @@ const email = event.currentTarget.email.value;
 ```
 
 - Diference between button and link:
-   - Links are used to change the page.
-   - Buttons are used for actions that happen inside the application.
+   - Links are used to change the page. Ex: Breadcrumb links.
+   - Buttons are used for actions that happen inside the application. Ex: Save or Follow button.
    
    Example: using an ```<a href='#'>Save</>``` to save something is not a good practice.
+   
+   
