@@ -268,3 +268,20 @@ const email = event.currentTarget.email.value;
  ## Logic and Flow Control *(Module 7)*
 
 **BEDMAS:**
+Order of operation in which Javascript runs:
+
+- B: brackets go first, in this case -> parenthesis.
+- E: exponents. (example: ```2 ** 10```)
+- D: division.
+- M: multiplication.
+- A: addition.
+- S: substraction.
+
+```javascript
+const age = 10 * 5 - 2; // 48, multiplication goes first.
+
+const age = 10 * (5 - 2); // 30. brackets goes first.
+```
+
+
+
