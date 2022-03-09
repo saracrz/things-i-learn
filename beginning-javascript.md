@@ -6,6 +6,7 @@ Highlights from Wes Bos course - Beginner Javascript
 1. [The Tricky Bits](#the-tricky-bits-module-3)
 2. [The DOM](#the-dom-module-4)
 3. [Events](#events-module-5)
+4. [Logic and Flow Control](#logic-and-flow-control-module-7)
 
 ## The Tricky Bits *(Module 3)*
 
@@ -244,7 +245,7 @@ button.addEventListener('click', function(event) {
 
 ```
 
-**Some extra events tips:**
+**Some extra tips:**
 
 - Prevent default: the method ```.preventDefault()``` is used when you want to prevent the default thing to happen.
 - The best way to grab element from a form is given to the input the property name, example:
@@ -264,3 +265,6 @@ const email = event.currentTarget.email.value;
    Example: using an ```<a href='#'>Save</>``` to save something is not a good practice.
    
    
+ ## Logic and Flow Control *(Module 7)*
+
+**BEDMAS:**
