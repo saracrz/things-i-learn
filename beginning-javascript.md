@@ -321,6 +321,7 @@ if (age === 18) {
 Operators:
 
 - One single equal: set the value. `Ex: age = 10;`
+- Two equals: compare the value is the same. `Ex: age == 15; // true` **But** careful with this because this: `Ex: age == '15';` is also true, that is why is alway recommended to use triple equals.
 
 ```javascript
 
