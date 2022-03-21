@@ -298,3 +298,18 @@ if (10 > 2) {
 // If the first if condition it's true the rest of the if else, and else are not going to be reached.
 
 ```
+
+```javascript
+if (10 > 2) {
+  console.log("It's is")
+} 
+if (10 < 2) {
+  console.log("It's not")
+} 
+if {
+  console.log("I'm done")
+}
+
+// This way every if statement is going to be checked.
+
+```
