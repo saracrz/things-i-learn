@@ -323,18 +323,4 @@ Operators:
 - One single equal: set the value. `Ex: age = 10;`
 - Two equals: compare the value is the same. `Ex: age == 15; // true` **But** careful with this because this: `Ex: age == '15';` is also true, that is why is alway recommended to use triple equals.
 
-```javascript
 
-if (age > 18) {
-  console.log("You can drive")  
-} 
-if (age < 18) {
-  console.log("You can't drive")
-} 
-if (age === 18) {
-  console.log("You can drive")
-}
-
-// This way every if statement is going to be checked.
-
-```
