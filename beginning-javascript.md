@@ -318,3 +318,22 @@ if (age === 18) {
 // This way every if statement is going to be checked.
 
 ```
+Operators:
+
+- One single equal: set the value. `Ex: age = 10;`
+
+```javascript
+
+if (age > 18) {
+  console.log("You can drive")  
+} 
+if (age < 18) {
+  console.log("You can't drive")
+} 
+if (age === 18) {
+  console.log("You can drive")
+}
+
+// This way every if statement is going to be checked.
+
+```
