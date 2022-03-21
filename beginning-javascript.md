@@ -287,12 +287,16 @@ const age = 10 * (5 - 2); // 30. brackets goes first.
 **If statements:**
 
 ```javascript
-if (10 > 2) {
-  console.log("It's is")
-} else if (10 < 2) {
-  console.log("It's not")
+const age = 15;
+
+if (age > 18) {
+  console.log("You can drive")
+  
+} else if (age < 18) {
+  console.log("You can't drive")
+  
 } else {
-  console.log("I'm done")
+  console.log("You can drive")
 }
 
 // If the first if condition it's true the rest of the if else, and else are not going to be reached.
@@ -300,14 +304,15 @@ if (10 > 2) {
 ```
 
 ```javascript
-if (10 > 2) {
-  console.log("It's is")
+
+if (age > 18) {
+  console.log("You can drive")  
 } 
-if (10 < 2) {
-  console.log("It's not")
+if (age < 18) {
+  console.log("You can't drive")
 } 
-if (10 === 10) {
-  console.log("I'm done")
+if (age === 18) {
+  console.log("You can drive")
 }
 
 // This way every if statement is going to be checked.
