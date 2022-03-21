@@ -306,7 +306,7 @@ if (10 > 2) {
 if (10 < 2) {
   console.log("It's not")
 } 
-if {
+if (10 === 10) {
   console.log("I'm done")
 }
 
