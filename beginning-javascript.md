@@ -337,4 +337,5 @@ if (age === 18) {
 - Empty string: `''` is falsy.
 - A string: `'Hello'`is truthy.
 - A string of zero: `'0'` is truthy. (A string of anything is truthy, even a string with a space `' '`)
+- Empty array: `[]` is truthy. But `[].length() is 0, then is false`
 
