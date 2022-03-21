@@ -323,5 +323,7 @@ Operators:
 - One single equal: set the value. `Ex: age = 10;`
 - Two equals: compare the value is the same. `Ex: age == 10; // true` **But** careful with this because this: `Ex: age == '10';` is also true, that is why is alway recommended to use triple equals.
 - Not equals: `Ex: age !== '10' // true`
+- OR: `Ex: name === 'Sam' || name === 'Kelly'`
+- AND: `Ex: if (name === 'Sam' && name === 'Kelly') console.log('Cool name!') // if one of then it's false, it's going to return false` 
 
 
