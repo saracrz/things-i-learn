@@ -328,6 +328,7 @@ if (age === 18) {
 
 **Truthy and Falsy:**
 
-- Number 0. Falsy, when you run a 0 is equla to false.
-- Number 1. Truthy, when you run it will equal true.
-- Number -10. Truthy, if 0 is falsy all the rest of the numbers are truthy.
+- Number 0: Falsy, when you run a 0 is equla to false.
+- Number 1: Truthy, when you run it will equal true.
+- Number -10: Truthy, if 0 is falsy all the rest of the numbers are truthy.
+- Undefined: falsy.
