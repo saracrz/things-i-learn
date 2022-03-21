@@ -318,7 +318,7 @@ if (age === 18) {
 // This way every if statement is going to be checked.
 
 ```
-Operators:
+**Operators:**
 
 - One single equal: set the value. `Ex: age = 10;`
 - Two equals: compare the value is the same. `Ex: age == 10; // true` **But** careful with this because this: `Ex: age == '10';` is also true, that is why is alway recommended to use triple equals.
@@ -326,4 +326,8 @@ Operators:
 - OR: `Ex: name === 'Sam' || name === 'Kelly'`
 - AND: `Ex: if (name === 'Sam' && name === 'Kelly') console.log('Cool name!') // if one of then it's false, it's going to return false` 
 
+**Truthy and Falsy:**
 
+- 0. Falsy, when you run a 0 is equla to false.
+- 1. Truthy, when you run it will equal true.
+-  -10. Truthy, if 0 is falsy all the rest of the numbers are truthy.
