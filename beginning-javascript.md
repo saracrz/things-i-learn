@@ -332,3 +332,9 @@ if (age === 18) {
 - Number 1: Truthy, when you run it will equal true.
 - Number -10: Truthy, if 0 is falsy all the rest of the numbers are truthy.
 - Undefined: falsy.
+- Null: falsy.
+- NaN: falsy.
+- Empty string: `''` is falsy.
+- A string: `'Hello'`is truthy.
+- A string of zero: `'0'` is truthy. (A string of anything is truthy, even a string with a space `' '`)
+
