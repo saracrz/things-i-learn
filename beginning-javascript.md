@@ -284,4 +284,17 @@ const age = 10 * (5 - 2); // 30. brackets goes first.
 ```
 
 
+**If statements:**
 
+```javascript
+if (10 > 2) {
+  console.log("It's is")
+} else if (10 < 2) {
+  console.log("It's not")
+} else {
+  console.log("I'm done")
+}
+
+// If the first if condition it's true the rest of the if else, and else are not going to be reached.
+
+```
