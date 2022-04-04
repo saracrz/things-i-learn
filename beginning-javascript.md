@@ -354,3 +354,31 @@ const emptyString = ''; // Falsy value.
 ```
 
 The truthy and and falsy values that if we want to coerced them into real true or false values we can do the same with them as in the above example. A single bang will give you the opposite of what they are.
+
+**Ternary:**
+A simplier/quickier way to declare an if/else statement.
+
+```javascript
+const count = 0;
+
+const word = count === 1 ? 'item' : 'items';
+
+console.log(`You have ${count} ${word} in your cart`)
+```
+Can be used with functions:
+
+```javascript
+const showAdminBar = () => console.log('Show admin bar')
+const isAdmin = true;
+
+isAdmin ? showAdminBar() : null // Is always needed to have the else value, even if we don't want to return nothing.
+```
+
+Another shorter way if we don't need the else value is: 
+
+```javascript
+const showAdminBar = () => console.log('Show admin bar')
+const isAdmin = true;
+
+isAdmin && showAdminBar() // This will check if the first condition is true or false, if true run the function, if false not.
+```
