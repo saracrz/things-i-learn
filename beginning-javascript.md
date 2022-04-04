@@ -321,7 +321,7 @@ if (age === 18) {
 **Operators:**
 
 - One single equal: set the value. `Ex: age = 10;`
-- Two equals: compare the value is the same. `Ex: age == 10; // true` **But** careful with this because this: `Ex: age == '10';` is also true, that is why is alway recommended to use triple equals.
+- Two equals: compare the value is the same. `Ex: age == 10; // true` **But** careful with this because this: `Ex: age == '10';` is also true, that is why is always recommended to use triple equals.
 - Not equals: `Ex: age !== '10' // true`
 - OR: `Ex: name === 'Sam' || name === 'Kelly'`
 - AND: `Ex: if (name === 'Sam' && name === 'Kelly') console.log('Cool name!') // if one of then it's false, it's going to return false` 
@@ -340,3 +340,17 @@ if (age === 18) {
 - Empty array: `[]` is truthy. But `[].length() returns 0, then is false`
 - Empty object: `{}` is truthy. But `Object.keys({}).length() returns 0, then is false`
 
+**Coercion:**
+
+Is when we forced a value of a different type, like a string or a number, or an object and we coerced into a true Boolean.
+
+```javascript
+const name = 'John';
+!!name // With the two bangs in front of it we forced the string to be a boolean value.
+
+const emptyString = '';
+!emptyString; // Returns true.
+!!emptyString; // Returns false.
+```
+
+The truthy and and falsy values that if we want to coerced them into real true or false values we can do the same with them as in the above example.
