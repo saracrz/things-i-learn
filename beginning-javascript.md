@@ -342,15 +342,15 @@ if (age === 18) {
 
 **Coercion:**
 
-Is when we forced a value of a different type, like a string or a number, or an object and we coerced into a true Boolean.
+Is when we forced a value of a different type, like a string or a number, or an object, or anything that is not a Boolean and we coerced into a true Boolean.
 
 ```javascript
 const name = 'John';
 !!name // With the two bangs in front of it we forced the string to be a boolean value.
 
-const emptyString = '';
+const emptyString = ''; // Falsy value.
 !emptyString; // Returns true.
 !!emptyString; // Returns false.
 ```
 
-The truthy and and falsy values that if we want to coerced them into real true or false values we can do the same with them as in the above example.
+The truthy and and falsy values that if we want to coerced them into real true or false values we can do the same with them as in the above example. A single bang will give you the opposite of what they are.
