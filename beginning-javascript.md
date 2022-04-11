@@ -382,3 +382,29 @@ const isAdmin = true;
 
 isAdmin && showAdminBar() // This will check if the first condition is true or false, if true run the function, if false not.
 ```
+**Intervals and Timers:**
+
+- setTimeOut: is a methos that taskes two arguments:
+   - a callback.
+   - number of miliseconds to run it after.
+
+```javascript
+setTimeout(console.log('runnning'), 500)
+```
+
+```javascript
+const farewell = () => console.log('bye')
+
+console.log('hello')
+setTimeout(farewell, 500)
+console.log("I'm Sara") // This log will run before the setTimeout, this is why JS is synchronous, won't wait for that line.
+```
+- setInterval, takes the same arguments as setTimeout, the difference is that keep running over the amount of time passed in the second argument. Run a function repeatedly, starting after the interval of time, then repeating continuously at that interval.
+
+- clearTimeout/clearInterval: in case we need to clean the timer. Just needs the reference saved in a variable:
+```javascript
+const interval = setInterval(() => console.log('bye'),  0,01)
+
+clearInterval(interval);
+
+```
