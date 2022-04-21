@@ -65,5 +65,5 @@ The following examples define our forEach callback function in different ways, b
 let sum = 0;
 const addToSum = n => sum += n;
 [1, 2, 3, 4].forEach(addToSum);
-sum;
+sum; // 10;
 ```
