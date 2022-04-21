@@ -67,3 +67,34 @@ const addToSum = n => sum += n;
 [1, 2, 3, 4].forEach(addToSum);
 sum; // 10;
 ```
+
+# Practice
+This function should return true when some of the numbers are positive. Currently it's broken: it always returns false. 
+Modify the function by using the `sawPositiveNumber` variable already declared. Set it to true when a positive number is encountered. Then return it at the end of the `hasPositiveNumbers` function.
+
+```javascript
+function hasPositiveNumbers(numbers) {
+  let sawPositiveNumber = false;
+  numbers.forEach(n => {
+    if (n > 0) {
+      return true;
+    }
+  });
+  return false;
+};
+
+
+[
+  hasPositiveNumbers([]),
+  hasPositiveNumbers([-2, -1, 0]),
+  hasPositiveNumbers([-1, 0, 100]),
+  hasPositiveNumbers([50]),
+];
+
+GOAL: [false, false, true, true]
+
+```
+
+
+
+**Hint**: We tried to return true inside the forEach callback. But the callback's return value is simply thrown away, so that doesn't work.
