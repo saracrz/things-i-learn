@@ -1,4 +1,4 @@
-**For Each**: 
+## forEach: 
 
 Executes a function once for each element in an array
 
@@ -68,7 +68,7 @@ const addToSum = n => sum += n;
 sum; // 10;
 ```
 
-# Practice
+## Practice
 This function should return true when some of the numbers are positive. Currently it's broken: it always returns false. 
 Modify the function by using the `sawPositiveNumber` variable already declared. Set it to true when a positive number is encountered. Then return it at the end of the `hasPositiveNumbers` function.
 
