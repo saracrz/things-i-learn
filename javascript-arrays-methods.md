@@ -1,4 +1,4 @@
-** For Each**
+** For Each**: 
 Executes a function once for each element in an array
 
 ```
