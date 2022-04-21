@@ -38,3 +38,32 @@ people.forEach(person => {
 });
 people[0].name; // 'EBONY'
 ```
+
+The callback function can reference, and even modify, variables defined in outer scopes. In the next example, the callback function modifies the `result` variable.
+
+The second argument to forEach's callback is the item's index.
+
+```javascript
+
+
+const names = ['Gabriel', 'Hana'];
+const userIDs = [10, 11];
+
+let result = '';
+names.forEach((name, index) => {
+  result += name + userIDs[index];
+});
+result; // 'Gabriel10Hana11'
+```
+
+Functions are values in JavaScript, so we can pass them in other ways as well.
+For example, we can put the function in a variable, then pass the variable to forEach. 
+The following examples define our forEach callback function in different ways, but they all have the same effect.
+
+```javascript
+
+let sum = 0;
+const addToSum = n => sum += n;
+[1, 2, 3, 4].forEach(addToSum);
+sum;
+```
