@@ -505,3 +505,28 @@ const myObject = {
 myObject?.sayHello('Hello') // 'Hello Darren'
 
 ```
+
+**Reference versus Value**
+
+When we compare variables and objects it does not behave the same:
+
+```javascript
+let name1 = 'Darren';
+let name2 = 'Cris' ;
+
+name1 === name2; // false
+
+name1 = name2;
+
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+  sayHello: function(greeting = hey){
+    return `${greeting} ${this.name}` // this keyword is always be equal to the left of the dot, in our case myObject.
+  }
+ }
+
+myObject?.sayHello('Hello') // 'Hello Darren'
+
+```
+
