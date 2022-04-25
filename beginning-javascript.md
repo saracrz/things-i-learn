@@ -542,6 +542,6 @@ let myObject1 = {
  myObject3.name = 'Paul'; 
  console.log(myObject3, myObject1) // {name: 'Paul', age: '35'} {name: 'Paul', age: '35'}
  
-**Note**: Notice that we only have changed myObject3 and myObject1 also changed. That is because when we equal both objects above, we are simply creating a variable that references or points to the original variable, instead of making a copy of it.
-```
 
+```
+**Note**: Notice that we only have changed myObject3 and myObject1 also changed. That is because when we equal both objects above, we are simply creating a variable that references or points to the original variable, instead of making a copy of it.
