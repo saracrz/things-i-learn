@@ -18,10 +18,12 @@ const people = [
   {name: 'Cindy'},
   {name: 'Dalili'},
 ];
+
 const names = [];
 people.forEach(person => {
   names.push(person.name);
 });
+
 names; // ['Cindy', 'Dalili']
 ```
 
@@ -33,9 +35,11 @@ const people = [
   {name: 'Ebony'},
   {name: 'Fang'},
 ];
+
 people.forEach(person => {
   person.name = person.name.toUpperCase();
 });
+
 people[0].name; // 'EBONY'
 ```
 
@@ -53,6 +57,7 @@ let result = '';
 names.forEach((name, index) => {
   result += name + userIDs[index];
 });
+
 result; // 'Gabriel10Hana11'
 ```
 
