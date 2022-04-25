@@ -7,7 +7,7 @@ Highlights from Wes Bos course - Beginner Javascript
 2. [The DOM](#the-dom-module-4)
 3. [Events](#events-module-5)
 4. [Logic and Flow Control](#logic-and-flow-control-module-7)
-5. [Data Types](#data-type-module-8)
+5. [Data Types](#data-types-module-8)
 
 ## The Tricky Bits *(Module 3)*
 
@@ -415,4 +415,44 @@ clearInterval(interval);
  
  Everything in Javascript is an object. An object allow us to group properties (keys and values).
  
- **Important:** Objects are used where the order of the properties does not matter.
+ **Important:** Objects are used where the order of the properties does not matter. Usually is in the same order as you declare them but is not guaranteed. For example in a different browser could be order differently.
+ 
+ To add a new property or overwrite an existing one in an object you can use
+ 1. The dot notation:
+ 
+```javascript
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+}
+
+myObject.telephone = 123456789; 
+myObject.age = 34;
+
+```
+
+2. Square backets:
+
+```javascript
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+  'cool': true, 
+}
+
+myObject['age'] = 34; // to reference a property with square backets we need to include strings.
+
+// We can not use dot notation to manipulate the 'cool' prop, that's another case where we need square backets.
+```
+
+If you want to avoid changing values in an object you can use the `Object.freeze()` method:
+
+```javascript
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+}
+
+const myFrozenObject = Object.freeze(myObject)
+
+```
