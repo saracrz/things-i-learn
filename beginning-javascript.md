@@ -545,6 +545,8 @@ let myObject1 = {
 ```
 **Note**: Notice that we only have changed myObject3 and myObject1 also changed. That is because when we equal both objects above, we are simply creating a variable that references or points to the original variable, instead of making a copy of it.
 
+This is also applicable to functions when you modify objects or arrays, not when the value that you are modifying are booleans, strings or numbers. **Just when you modify objects or arrsys.** This can cause bugs, just remember to make a copy of it when you are modifying an object or an array. 
+
 So, how to make a copy of an object?
 
 1. Spread: takes every single item of an object and spread it into a new object.
