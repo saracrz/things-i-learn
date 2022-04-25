@@ -486,3 +486,22 @@ const myObject = {
 myObject?.telephone?.home // 123456.
 
 ```
+
+**Methods:**
+
+What is the difference between a method and a function:
+
+A method is just a function that lives inside an object.
+
+```javascript
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+  sayHello: function(greeting = hey){
+    return `${greeting} ${this.name}` // this keyword is always be equal to the left of the dot, in our case myObject.
+  }
+ }
+
+myObject?.sayHello('Hello') // 'Hello Darren'
+
+```
