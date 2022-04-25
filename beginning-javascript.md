@@ -567,3 +567,21 @@ myObject3.name = 'Helen';
 console.log(myObject3, myObject2) // {name: 'Helen', age: '35'} {name: 'Paul', age: '35'}
 ```
 Notice that now we keep `myObject2` object independent of the changes that we can do in myObject3 because we have done a copy in a new object of `myObject2` with the spread operator.
+
+2. Object.assign: not much used anymore as spread is more popular.
+
+```javascript
+let myObject1 = {
+  name: 'Darren', 
+  age: '35',
+ }
+ 
+ let myObject2 = {
+  name: 'Paul', 
+  age: '35',
+ }
+
+ 
+const myObject3 = Object.assign({}, myObject2);
+
+```
