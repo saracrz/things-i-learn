@@ -537,7 +537,11 @@ let myObject1 = {
  
  myObject1 === myObject2 // false
  
- myObject1 = myObject2;
-
+ myObject1 = myObject3; // Both objects have same value now.
+ 
+ myObject3.name = 'Paul'; 
+ console.log(myObject3, myObject1) // {name: 'Paul', age: '35'} {name: 'Paul', age: '35'}
+ 
+**Note**: Notice that we only have changed myObject3 and myObject1 also changed. That is because when we equal both objects above, we are simply creating a variable that references or points to the original variable, instead of making a copy of it.
 ```
 
