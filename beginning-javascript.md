@@ -542,6 +542,25 @@ let myObject1 = {
  myObject3.name = 'Paul'; 
  console.log(myObject3, myObject1) // {name: 'Paul', age: '35'} {name: 'Paul', age: '35'}
  
-
 ```
 **Note**: Notice that we only have changed myObject3 and myObject1 also changed. That is because when we equal both objects above, we are simply creating a variable that references or points to the original variable, instead of making a copy of it.
+
+So, how to make a copy of an object?
+
+1. Spread: takes every single item of an object and spread it into a new object.
+
+```javascript
+let myObject1 = {
+  name: 'Darren', 
+  age: '35',
+ }
+ 
+ let myObject2 = {
+  name: 'Paul', 
+  age: '35',
+ }
+
+ 
+const myObject3 = { ...myObject2 };
+myObject3.name = 'Helen';
+```
