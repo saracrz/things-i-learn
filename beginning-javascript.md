@@ -456,3 +456,33 @@ const myObject = {
 const myFrozenObject = Object.freeze(myObject)
 
 ```
+
+If we want to delete a property from the object we can use `delete`:
+
+```javascript
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+}
+
+const deleteProp = delete myObject.name;
+deleteProp // true
+```
+
+**Optional chaining:**
+
+If we want to check if a key exists we can use question mark operator, this way it won't throw an error if the prop does not exist:
+
+```javascript
+const myObject = {
+  name: 'Darren', 
+  age: '35',
+  telephone: {
+    home: 123456,
+    mobile: 987654,
+  }
+}
+
+myObject?.telephone?.home // 123456.
+
+```
