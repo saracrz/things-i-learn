@@ -519,18 +519,25 @@ name1 === name2; // false
 
 name1 = name2; // Both now are 'Cris'
 
-Object:
-const myObject1 = {
+Objects:
+let myObject1 = {
   name: 'Darren', 
   age: '35',
  }
  
- const myObject2 = {
+ let myObject2 = {
   name: 'Darren', 
+  age: '35',
+ }
+ 
+ let myObject3 = {
+  name: 'Alex', 
   age: '35',
  }
  
  myObject1 === myObject2 // false
+ 
+ myObject1 = myObject2;
 
 ```
 
