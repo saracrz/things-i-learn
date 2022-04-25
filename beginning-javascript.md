@@ -568,6 +568,8 @@ console.log(myObject3, myObject2) // {name: 'Helen', age: '35'} {name: 'Paul', a
 ```
 Notice that now we keep `myObject2` object independent of the changes that we can do in myObject3 because we have done a copy in a new object of `myObject2` with the spread operator.
 
+
+
 2. Object.assign: not much used anymore as spread is more popular.
 
 ```javascript
@@ -585,3 +587,9 @@ let myObject1 = {
 const myObject3 = Object.assign({}, myObject2);
 
 ```
+**Important:**
+
+Both ways only do a shallow copy of an object, meaning that they go one level deep. 
+If we have one more levels inside of an object (an object inside another object) we will have the same problem as the first example, it modifies the object from reference or the object which is pointing out. 
+
+To do a **deep clone/copy** of an object we can do it with a utility library. For example: [lodash](https://lodash.com/docs/4.17.15#cloneDeep)
