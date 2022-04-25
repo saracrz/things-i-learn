@@ -508,7 +508,7 @@ myObject?.sayHello('Hello') // 'Hello Darren'
 
 **Reference versus Value**
 
-When we compare variables and objects it does not behave the same:
+When we compare variables and objects it does not behave the same way:
 
 ```javascript
 Variables:
