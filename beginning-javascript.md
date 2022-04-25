@@ -7,6 +7,7 @@ Highlights from Wes Bos course - Beginner Javascript
 2. [The DOM](#the-dom-module-4)
 3. [Events](#events-module-5)
 4. [Logic and Flow Control](#logic-and-flow-control-module-7)
+5. [Data Types](#data-type-module-8)
 
 ## The Tricky Bits *(Module 3)*
 
@@ -44,7 +45,7 @@ function sayHI() {
 }
 ```
 
-## The DOM *(Module 4)*
+# The DOM *(Module 4)*
 
 The DOM (Document Object Model) is the start base for every framework.
 
@@ -149,7 +150,7 @@ item.innerHTML = `<h1>Hey ${name}! I'm a title</h1>`
 ```
 
 
-## Events *(Module 5)*
+# Events *(Module 5)*
 
 **Event Listeners**
 
@@ -265,7 +266,7 @@ const email = event.currentTarget.email.value;
    Example: using an ```<a href='#'>Save</>``` to save something is not a good practice.
    
    
- ## Logic and Flow Control *(Module 7)*
+ # Logic and Flow Control *(Module 7)*
 
 **BEDMAS:**
 Order of operation in which Javascript runs:
@@ -408,3 +409,10 @@ const interval = setInterval(() => console.log('bye'),  0,01)
 clearInterval(interval);
 
 ```
+ # Data Types *(Module 8)*
+ 
+ ## Objects:
+ 
+ Everything in Javascript is an object. An object allow us to group properties (keys and values).
+ 
+ **Important:** Objects are used where the order of the properties does not matter.
