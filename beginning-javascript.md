@@ -511,22 +511,26 @@ myObject?.sayHello('Hello') // 'Hello Darren'
 When we compare variables and objects it does not behave the same:
 
 ```javascript
+Variables:
 let name1 = 'Darren';
 let name2 = 'Cris' ;
 
 name1 === name2; // false
 
-name1 = name2;
+name1 = name2; // Both now are 'Cris'
 
-const myObject = {
+Object:
+const myObject1 = {
   name: 'Darren', 
   age: '35',
-  sayHello: function(greeting = hey){
-    return `${greeting} ${this.name}` // this keyword is always be equal to the left of the dot, in our case myObject.
-  }
  }
-
-myObject?.sayHello('Hello') // 'Hello Darren'
+ 
+ const myObject2 = {
+  name: 'Darren', 
+  age: '35',
+ }
+ 
+ myObject1 === myObject2 // false
 
 ```
 
