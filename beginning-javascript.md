@@ -562,5 +562,8 @@ let myObject1 = {
 
  
 const myObject3 = { ...myObject2 };
-myObject3.name = 'Helen';
+myObject3.name = 'Helen'; 
+
+console.log(myObject3, myObject2) // {name: 'Helen', age: '35'} {name: 'Paul', age: '35'}
 ```
+Notice that now we keep `myObject2` object independent of the changes that we can do in myObject3 because we have done a copy in a new object of `myObject2` with the spread operator.
