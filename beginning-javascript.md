@@ -595,3 +595,16 @@ Both ways only do a shallow copy of an object, meaning that they go one level de
 If we have one more levels inside of an object (an object inside another object) we will have the same problem as the first example, it modifies the object from reference or the object which is pointing out. 
 
 To do a **deep clone/copy** of an object we can do it with a utility library. For example: [lodash](https://lodash.com/docs/4.17.15#cloneDeep)
+
+ ## Arrays:
+An array is used for holding a list of items where **the order of the items matters**. Each thing inside the array is called `item` and its position in the array `index`.
+The number of items inside of an array is called a length and each item inside an array can be any type.
+A difference with the object is that the array does not have keys. Tje key is goin to be the index (ex:[1: 'value1', 2: 'value2'])
+
+If you want to access to the content of an array, you should use the index:
+
+```javascript
+const myArray = ['Rose', 'Lily'];
+
+myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
+```
