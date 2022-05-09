@@ -1,4 +1,4 @@
-# things-i-learnt
+# things-i-learn
 A way to document all things I'm learning through the time.
 
 ## Contents:
