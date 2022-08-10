@@ -8,7 +8,7 @@ Highlights from Wes Bos course - Beginner Javascript
 3. [Events](#events-module-5)
 4. [Logic and Flow Control](#logic-and-flow-control-module-7)
 5. [Data Types](#data-types-module-8)
-6. [Getting Loopy](#getting-loopy-9)
+6. [Getting Loopy](#getting-loopy-module-9)
 
 ## The Tricky Bits *(Module 3)*
 
@@ -609,4 +609,4 @@ const myArray = ['Rose', 'Lily'];
 
 myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
 ```
-## Getting Loopy *(Module 9)*
+# Getting Loopy *(Module 9)*
