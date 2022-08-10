@@ -614,6 +614,18 @@ myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
 ## Array Methods
 
 - forEach()
+  - Iterates the array returning nothing.
+
+- .map()
+  - Takes in data, performs an operation and returns something. 
+  - It always produce the same length of the array as it start with.
  
+ ```javascript
+const myArray = ['Rose', 'Lily'];
+
+let addSurname = names.map(name  => {
+  return name + ' Cruz'
+})
+```
 
 
