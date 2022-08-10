@@ -633,4 +633,11 @@ myArray.map(nameAndSurname);
 // ['Rose Cruz', 'Lily Cruz']
 ```
 
-
+- .filter()
+  - Iterates on every single item of an array and returns true or false.
+  - Returns **all of the items** that fulfil the condition or match what you want.
+  - Returns an array.
+  
+- .find()
+  - will find **only one item** in the array and return it.
+  - returns the actual item that you want.
