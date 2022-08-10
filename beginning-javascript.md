@@ -619,13 +619,16 @@ myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
 - .map()
   - Takes in data, performs an operation and returns something. 
   - It always produce the same length of the array as it start with.
+  - We can use any type of data.
  
  ```javascript
 const myArray = ['Rose', 'Lily'];
 
-myArray.map(name  => {
-  return name + ' Cruz'
-})
+const nameAndSurname = (name) => {
+  return `${name} Cruz`
+}
+
+myArray.map(nameAndSurname);
 
 // ['Rose Cruz', 'Lily Cruz']
 ```
