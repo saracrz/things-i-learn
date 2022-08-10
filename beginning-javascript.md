@@ -623,9 +623,11 @@ myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
  ```javascript
 const myArray = ['Rose', 'Lily'];
 
-let addSurname = names.map(name  => {
+myArray.map(name  => {
   return name + ' Cruz'
 })
+
+// ['Rose Cruz', 'Lily Cruz']
 ```
 
 
