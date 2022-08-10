@@ -610,3 +610,10 @@ const myArray = ['Rose', 'Lily'];
 myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
 ```
 # Getting Loopy *(Module 9)*
+
+## Array Methods
+
+- forEach()
+ 
+
+
