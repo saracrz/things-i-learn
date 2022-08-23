@@ -625,12 +625,12 @@ myArray[1] // 'Lily' -> arrays are 0 based, the counting starts at 0.
 const myArray = ['Rose', 'Lily'];
 
 const nameAndSurname = (name) => {
-  return `${name} Cruz`
+  return `${name} Wilson`
 }
 
 myArray.map(nameAndSurname);
 
-// ['Rose Cruz', 'Lily Cruz']
+// ['Rose Wilson', 'Lily Wilson']
 ```
 
 - .filter()
@@ -641,3 +641,7 @@ myArray.map(nameAndSurname);
 - .find()
   - will find **only one item** in the array and return it.
   - returns the actual item that you want.
+
+-.reduce()
+  - accepts 2 parameters (accumulator, currentValue)
+  - We can add a 0 as a parameter too to start counting on 0.
