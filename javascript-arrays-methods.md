@@ -162,3 +162,20 @@ Sometimes we need to access to a part of an array. It takes an argument **begin*
 
 Result: [4, 5];
 ```
+
+It can take a second argument, end. It slices all elements from begin up to end, but not including end.
+
+```javascript
+[10, 20, 30, 40, 50].slice(1, 3);
+
+Result: [20, 30];
+```
+
+If the begin index is past the end oth array we get an empty result. 
+For example if our array has indexes 0 and 1: [10, 20], what is in indexes 2 through 3? Nothing, so the slice of those indexes are empty:
+
+```javascript
+[10, 20].slice(2, 3);
+
+Result: [];
+```
