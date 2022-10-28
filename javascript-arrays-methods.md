@@ -3,8 +3,8 @@
 ## Content: 
 
 1. [ForEach](#forEach)
-2. [Stack](##Stack)
-3. [Slice](##Slice)
+2. [Stack](#Stack)
+3. [Slice](#Slice)
 
 ## ForEach: 
 
