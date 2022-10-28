@@ -1,6 +1,6 @@
 # Javascript Arrays:
 
-Documntation for the [execute program](https://www.executeprogram.com/courses) Javscript Arrays methods.
+Documentation for the [execute program](https://www.executeprogram.com/courses) Javscript Arrays methods.
 
 ## Content: 
 
