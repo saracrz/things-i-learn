@@ -1,6 +1,12 @@
 # Javascript Arrays:
 
-## forEach: 
+## Content: 
+
+1. [ForEach](#forEach)
+2. [Stack](##Stack)
+3. [Slice](##Slice)
+
+## ForEach: 
 
 Executes a function once for each element in an array
 
