@@ -155,7 +155,7 @@ Result: [1];
 ```
 
 ## Slice: 
-Sometimes we need to access to a part of an array. It takes an argument **begin**, which is the index to start from.
+Copying arrays is its most common use, however, sometimes we need to access to a part of an array. It takes an argument **begin**, which is the index to start from.
 
 ```javascript
 [1, 2, 3, 4, 5].slice(3);
