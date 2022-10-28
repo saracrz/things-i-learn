@@ -179,3 +179,14 @@ For example if our array has indexes 0 and 1: [10, 20], what is in indexes 2 thr
 
 Result: [];
 ```
+
+With no arguments, will slice all elements of the array. This copies the original array, like this if you modify the copy the original array remains the same, and if you modify the original array the copy stays the same.
+
+```javascript
+const originalArray = [10, 20, 30];
+const copy = orig.slice();
+copy[0] = 1;
+originalArray;
+
+// Result: [10, 20, 30];
+```
