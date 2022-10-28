@@ -1,3 +1,5 @@
+# Javascript Arrays:
+
 ## forEach: 
 
 Executes a function once for each element in an array
@@ -103,3 +105,35 @@ GOAL: [false, false, true, true]
 
 
 **Hint**: We tried to return true inside the forEach callback. But the callback's return value is simply thrown away, so that doesn't work.
+
+
+
+## Stack: 
+
+We can add elements to the end of an array with **push**
+
+```javascript
+const a = [1, 2];
+a.push(3);
+a;
+
+// Result: [1, 2, 3]
+```
+
+**push** returns the array's length, including the newly-pushed element.
+
+```javascript
+const a = ['a', 'b'];
+a.push('c');
+
+// Result: 3
+```
+
+**pop** is the opposite of push. It removes the last element from the array.
+
+```javascript
+const a = [1, 2, 3];
+a.pop();
+a;
+
+Result: [1, 2];
