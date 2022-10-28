@@ -137,3 +137,10 @@ a.pop();
 a;
 
 Result: [1, 2];
+```
+
+**pop** returns the element that was removed.
+
+If the array is empty, **pop** returns **undefined**, because there's nothing to remove. This mirrors the way that array indexing works: if we ask for any index of an empty array, we get undefined.
+
+**push** and **pop** does not return a new array, instead they change the array itself each time they are called.
