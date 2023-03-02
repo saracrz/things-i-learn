@@ -8,7 +8,7 @@ Documentation for the [execute program](https://www.executeprogram.com/courses) 
 2. [Stack](#Stack)
 3. [Slice](#Slice)
 
-## ForEach: 
+## ForEach method: 
 
 Executes a function once for each element in an array
 
